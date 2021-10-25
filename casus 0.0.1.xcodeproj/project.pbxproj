@@ -7,16 +7,24 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		FE1A5ADC2726B64400C4FC29 /* Detailcard.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE1A5ADB2726B64400C4FC29 /* Detailcard.swift */; };
 		FEA4A8852722BD4A00744749 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FEA4A8842722BD4A00744749 /* AppDelegate.swift */; };
 		FEA4A8872722BD4A00744749 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FEA4A8862722BD4A00744749 /* SceneDelegate.swift */; };
 		FEA4A8892722BD4A00744749 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FEA4A8882722BD4A00744749 /* ViewController.swift */; };
 		FEA4A88C2722BD4A00744749 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FEA4A88A2722BD4A00744749 /* Main.storyboard */; };
 		FEA4A88E2722BD4B00744749 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FEA4A88D2722BD4B00744749 /* Assets.xcassets */; };
 		FEA4A8912722BD4B00744749 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FEA4A88F2722BD4B00744749 /* LaunchScreen.storyboard */; };
+		FEA4A89D2722C16D00744749 /* Home.swift in Sources */ = {isa = PBXBuildFile; fileRef = FEA4A89C2722C16D00744749 /* Home.swift */; };
+		FEA4A89F2722C2AD00744749 /* Dichtbij.swift in Sources */ = {isa = PBXBuildFile; fileRef = FEA4A89E2722C2AD00744749 /* Dichtbij.swift */; };
+		FEA4A8A12722C2BC00744749 /* Spontaan.swift in Sources */ = {isa = PBXBuildFile; fileRef = FEA4A8A02722C2BC00744749 /* Spontaan.swift */; };
+		FEA4A8A32722C2C400744749 /* Hotels.swift in Sources */ = {isa = PBXBuildFile; fileRef = FEA4A8A22722C2C400744749 /* Hotels.swift */; };
+		FEA4A8A52722C2CB00744749 /* Menu.swift in Sources */ = {isa = PBXBuildFile; fileRef = FEA4A8A42722C2CB00744749 /* Menu.swift */; };
+		FEA4A8A72722D5BE00744749 /* DetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FEA4A8A62722D5BE00744749 /* DetailView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		FEA4A8812722BD4A00744749 /* cassus 0.0.1.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "cassus 0.0.1.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		FE1A5ADB2726B64400C4FC29 /* Detailcard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Detailcard.swift; sourceTree = "<group>"; };
+		FEA4A8812722BD4A00744749 /* casus 0.0.1.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "casus 0.0.1.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		FEA4A8842722BD4A00744749 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		FEA4A8862722BD4A00744749 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		FEA4A8882722BD4A00744749 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -24,6 +32,12 @@
 		FEA4A88D2722BD4B00744749 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		FEA4A8902722BD4B00744749 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		FEA4A8922722BD4B00744749 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FEA4A89C2722C16D00744749 /* Home.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Home.swift; sourceTree = "<group>"; };
+		FEA4A89E2722C2AD00744749 /* Dichtbij.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Dichtbij.swift; sourceTree = "<group>"; };
+		FEA4A8A02722C2BC00744749 /* Spontaan.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Spontaan.swift; sourceTree = "<group>"; };
+		FEA4A8A22722C2C400744749 /* Hotels.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Hotels.swift; sourceTree = "<group>"; };
+		FEA4A8A42722C2CB00744749 /* Menu.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Menu.swift; sourceTree = "<group>"; };
+		FEA4A8A62722D5BE00744749 /* DetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -48,7 +62,7 @@
 		FEA4A8822722BD4A00744749 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				FEA4A8812722BD4A00744749 /* cassus 0.0.1.app */,
+				FEA4A8812722BD4A00744749 /* casus 0.0.1.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -59,7 +73,14 @@
 				FEA4A8842722BD4A00744749 /* AppDelegate.swift */,
 				FEA4A8862722BD4A00744749 /* SceneDelegate.swift */,
 				FEA4A8882722BD4A00744749 /* ViewController.swift */,
+				FEA4A89C2722C16D00744749 /* Home.swift */,
 				FEA4A88A2722BD4A00744749 /* Main.storyboard */,
+				FE1A5ADB2726B64400C4FC29 /* Detailcard.swift */,
+				FEA4A8A62722D5BE00744749 /* DetailView.swift */,
+				FEA4A89E2722C2AD00744749 /* Dichtbij.swift */,
+				FEA4A8A02722C2BC00744749 /* Spontaan.swift */,
+				FEA4A8A22722C2C400744749 /* Hotels.swift */,
+				FEA4A8A42722C2CB00744749 /* Menu.swift */,
 				FEA4A88D2722BD4B00744749 /* Assets.xcassets */,
 				FEA4A88F2722BD4B00744749 /* LaunchScreen.storyboard */,
 				FEA4A8922722BD4B00744749 /* Info.plist */,
@@ -70,9 +91,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		FEA4A8802722BD4A00744749 /* cassus 0.0.1 */ = {
+		FEA4A8802722BD4A00744749 /* casus 0.0.1 */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = FEA4A8952722BD4B00744749 /* Build configuration list for PBXNativeTarget "cassus 0.0.1" */;
+			buildConfigurationList = FEA4A8952722BD4B00744749 /* Build configuration list for PBXNativeTarget "casus 0.0.1" */;
 			buildPhases = (
 				FEA4A87D2722BD4A00744749 /* Sources */,
 				FEA4A87E2722BD4A00744749 /* Frameworks */,
@@ -82,9 +103,9 @@
 			);
 			dependencies = (
 			);
-			name = "cassus 0.0.1";
+			name = "casus 0.0.1";
 			productName = "cassus 0.0.1";
-			productReference = FEA4A8812722BD4A00744749 /* cassus 0.0.1.app */;
+			productReference = FEA4A8812722BD4A00744749 /* casus 0.0.1.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -102,7 +123,7 @@
 					};
 				};
 			};
-			buildConfigurationList = FEA4A87C2722BD4A00744749 /* Build configuration list for PBXProject "cassus 0.0.1" */;
+			buildConfigurationList = FEA4A87C2722BD4A00744749 /* Build configuration list for PBXProject "casus 0.0.1" */;
 			compatibilityVersion = "Xcode 13.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -115,7 +136,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				FEA4A8802722BD4A00744749 /* cassus 0.0.1 */,
+				FEA4A8802722BD4A00744749 /* casus 0.0.1 */,
 			);
 		};
 /* End PBXProject section */
@@ -138,8 +159,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FEA4A89F2722C2AD00744749 /* Dichtbij.swift in Sources */,
+				FEA4A8A72722D5BE00744749 /* DetailView.swift in Sources */,
+				FEA4A8A12722C2BC00744749 /* Spontaan.swift in Sources */,
+				FEA4A8A52722C2CB00744749 /* Menu.swift in Sources */,
+				FE1A5ADC2726B64400C4FC29 /* Detailcard.swift in Sources */,
+				FEA4A8A32722C2C400744749 /* Hotels.swift in Sources */,
 				FEA4A8892722BD4A00744749 /* ViewController.swift in Sources */,
 				FEA4A8852722BD4A00744749 /* AppDelegate.swift in Sources */,
+				FEA4A89D2722C16D00744749 /* Home.swift in Sources */,
 				FEA4A8872722BD4A00744749 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -339,7 +367,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		FEA4A87C2722BD4A00744749 /* Build configuration list for PBXProject "cassus 0.0.1" */ = {
+		FEA4A87C2722BD4A00744749 /* Build configuration list for PBXProject "casus 0.0.1" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				FEA4A8932722BD4B00744749 /* Debug */,
@@ -348,7 +376,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		FEA4A8952722BD4B00744749 /* Build configuration list for PBXNativeTarget "cassus 0.0.1" */ = {
+		FEA4A8952722BD4B00744749 /* Build configuration list for PBXNativeTarget "casus 0.0.1" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				FEA4A8962722BD4B00744749 /* Debug */,

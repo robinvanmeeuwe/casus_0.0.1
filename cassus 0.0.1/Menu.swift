@@ -1,5 +1,5 @@
 //
-//  ViewController.swift
+//  Menu.swift
 //  casus 0.0.1
 //
 //  Created by Robin van Meeuwen on 22/10/2021.
@@ -7,11 +7,11 @@
 
 import UIKit
 
-class ViewController: UIViewController {
+class Menu: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view.
+        self.navigationItem.title = "hallo"
     }
 
 
