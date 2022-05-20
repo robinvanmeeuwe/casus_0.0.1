@@ -7,7 +7,7 @@
 
 import UIKit
 
-class Hotels: UIViewController {
+class HotelViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
